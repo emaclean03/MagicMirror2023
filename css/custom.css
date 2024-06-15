@@ -10,3 +10,6 @@
   padding:8px;
 }
 
+#GPHOTO_CURRENT {
+  background-size:contain;
+}

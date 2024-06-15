@@ -98,7 +98,7 @@ let config = {
 		},
 		{//
 			module: "MMM-GooglePhotos",
-			position: "middle_center",
+			position: "fullscreen_below",
 			config: {
 				albums: ['Camp Shiver', 'Evmac'], // Set your album name. like ["My wedding", "family share", "Travle to Paris"]
 				updateInterval: 1000 * 20, // minimum 10 seconds.
