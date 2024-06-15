@@ -39,11 +39,10 @@ let config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_center",
 		},
 		{
 			module: "calendar",
-			position: "bottom_bar",
 			config: {
 				broadcastPastEvents: true, // <= IMPORTANT to see past events
 				calendars: [
@@ -75,15 +74,15 @@ let config = {
 				calendarSet: ['EvMac'],
 			}
 		},
-		/*{
+		{
 			module: "weather",
 			position: "top_right",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				initialLoadDelay: 100,
+				locationID: "4148986", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "05752c038c027e49f4d5b8dbc6ae57ba"
 			}
 		},
 		{
@@ -93,11 +92,10 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
+				locationID: "4148986", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+				apiKey: "05752c038c027e49f4d5b8dbc6ae57ba"
 			}
-		},*/
+		},
 		{//
 			module: "MMM-GooglePhotos",
 			position: "fullscreen_below",
