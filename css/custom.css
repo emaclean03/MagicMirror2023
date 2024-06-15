@@ -1,7 +1,14 @@
 .clock{
-  background-color:rgba(0,0,0,0.6);
+  //background-color:rgba(0,0,0,0.6);
   border-radius:8px;
   padding:8px;
+}
+
+.clock   .date {
+  font-size: 2.5rem;
+}
+.clock .time {
+  font-size: 5.5rem;
 }
 
 .weather{
@@ -11,7 +18,7 @@
 }
 
 #GPHOTO_CURRENT {
-  max-height: 58%;
+  max-height: 59.5%;
   max-width: 100%;
   border-radius: 8px;
   margin: 17% auto 0;
