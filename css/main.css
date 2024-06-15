@@ -12,10 +12,10 @@
   --font-size-large: 3.25rem;
   --font-size-xlarge: 3.75rem;
   --gap-body-top:4px;
-  --gap-body-right: 5px;
-  --gap-body-bottom: 0px;
+  --gap-body-right: 20px;
+  --gap-body-bottom: 3px;
   --gap-body-left: 15px;
-  --gap-modules: 20px;
+  --gap-modules: 30px;
 }
 
 html {
