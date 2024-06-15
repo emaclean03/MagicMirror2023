@@ -11,8 +11,8 @@
 }
 
 #GPHOTO_CURRENT {
-  max-height: 75%;
-  max-width: 82%;
+  max-height: 100%;
+  max-width: 86%;
   border-radius: 8px;
   margin: 20px auto 0;
 }
