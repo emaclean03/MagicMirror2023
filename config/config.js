@@ -82,18 +82,18 @@ let config = {
 				type: "current",
 				initialLoadDelay: 100,
 				locationID: "4148986", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "#"
+				apiKey: "05752c038c027e49f4d5b8dbc6ae57ba"
 			}
 		},
 		{
 			module: "weather",
-			position: "top_left",
+			position: "top_center",
 			header: "Weather Forecast",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "forecast",
 				locationID: "4148986", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "#"
+				apiKey: "05752c038c027e49f4d5b8dbc6ae57ba"
 			}
 		},
 		{//

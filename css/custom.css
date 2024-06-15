@@ -11,17 +11,16 @@
 }
 
 #GPHOTO_CURRENT {
-  max-height: 83%;
+  max-height: 74%;
+  border: 3px solid red;
   max-width: 100%;
   border-radius: 8px;
-  margin: 0 auto 0;
+  margin: 17% auto 0;
   background-size: cover;
 }
 
 #GPHOTO_INFO {
-  top: -20px;
-  left: 52%;
+  margin: 19% 4% 0;
   bottom: inherit;
   right: inherit;
-  background: none;
 }
