@@ -39,7 +39,7 @@ let config = {
 		},
 		{
 			module: "clock",
-			position: "top_center",
+			position: "top_right",
 		},
 		{
 			module: "calendar",
@@ -76,7 +76,7 @@ let config = {
 		},
 		{
 			module: "weather",
-			position: "top_right",
+			position: "top_center",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
@@ -87,7 +87,7 @@ let config = {
 		},
 		{
 			module: "weather",
-			position: "top_right",
+			position: "top_left",
 			header: "Weather Forecast",
 			config: {
 				weatherProvider: "openweathermap",
