@@ -70,7 +70,7 @@ let config = {
 				locale: 'en-US',
 				maxEventLines: 5,
 				firstDayOfWeek: 1,
-				weeksInView: 4,
+				weeksInView: 2,
 				calendarSet: ['EvMac'],
 			}
 		},
