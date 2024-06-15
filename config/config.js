@@ -43,28 +43,37 @@ let config = {
 		},
 		{
 			module: "calendar",
-			header: "Calendar",
-			position: "top_left",
-			maxTitleLength: 5,
-			wrapEvents:true,
+			position: "bottom_bar",
 			config: {
+				broadcastPastEvents: true, // <= IMPORTANT to see past events
 				calendars: [
 					{
-						fetchInterval: 5 * 60 * 1000,
-						symbol: "calendar-check",
 						url: "https://calendar.google.com/calendar/ical/02aehgncjpof2a6t50futcss7s%40group.calendar.google.com/public/basic.ics",
+						name: "EvMac", // <= RECOMMENDED to assign name
+						color: "yellow" // <= RECOMMENDED to assign color
 					},
 					{
-						fetchInterval: 5 * 60 * 1000,
-						symbol: "heart",
-						url: "https://calendar.google.com/calendar/ical/terrymac0421%40gmail.com/private-4d81bab575633c97a7de6f6b1104afc4/basic.ics"
-					}
+						url: "https://calendar.google.com/calendar/embed?src=family01068811041469020433%40group.calendar.google.com&ctz=America%2FNew_York",
+						name: "Family", // <= RECOMMENDED to assign name
+						color: "red" // <= RECOMMENDED to assign color
+					},
 				]
 			}
 		},
+		//url: "https://calendar.google.com/calendar/ical/02aehgncjpof2a6t50futcss7s%40group.calendar.google.com/public/basic.ics",
 		{
-			module: "compliments",
-			position: "lower_third"
+			module: "MMM-CalendarExt3",
+			position: "bottom_bar",
+			title: "Our Calendar",
+			config: {
+				mode: "week",
+				instanceId: "basicCalendar",
+				locale: 'en-US',
+				maxEventLines: 5,
+				firstDayOfWeek: 1,
+				weeksInView: 4,
+				calendarSet: ['EvMac'],
+			}
 		},
 		/*{
 			module: "weather",
@@ -111,22 +120,6 @@ let config = {
 				showWidth: 1080, // These values will be used for quality of downloaded photos to show. real size to show in your MagicMirror region is recommended.
 				showHeight: 1920,
 				timeFormat: "MM/DD/YYYY HH:mm", // Or `relative` can be used.
-			}
-		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true,
-				broadcastNewsFeeds: true,
-				broadcastNewsUpdates: true
 			}
 		},
 	]
