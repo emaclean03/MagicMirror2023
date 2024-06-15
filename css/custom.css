@@ -1,12 +1,11 @@
-/*body {
-  margin: 0;
-  position: absolute;
-  transform: rotate(90deg);
-  transform-origin: bottom left;
-  width: 100vh;
-  height: 100vw;
-  object-fit: cover;
-  top: -75vw;
-  visibility: visible;
-}*/
+.clock{
+  background-color:rgba(0,0,0,0.6);
+  border-radius:8px;
+  padding:8px;
+}
 
+.weather{
+  background-color:rgba(0,0,0,0.6);
+  border-radius:8px;
+  padding:8px;
+}
