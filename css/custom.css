@@ -10,3 +10,17 @@
   padding:8px;
 }
 
+#GPHOTO_CURRENT {
+  max-height: 64%;
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px auto 0;
+}
+
+#GPHOTO_INFO {
+  top: -20px;
+  left: 52%;
+  bottom: inherit;
+  right: inherit;
+  background: none;
+}

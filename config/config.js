@@ -76,7 +76,7 @@ let config = {
 		},
 		{
 			module: "weather",
-			position: "top_center",
+			position: "top_left",
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
