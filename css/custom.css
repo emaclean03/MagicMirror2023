@@ -12,9 +12,9 @@
 
 #GPHOTO_CURRENT {
   max-height: 100%;
-  max-width: 93%;
+  max-width: 90%;
   border-radius: 8px;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
 }
 
 #GPHOTO_INFO {
